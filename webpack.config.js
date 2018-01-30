@@ -22,8 +22,14 @@ module.exports = {
         test: /\.less$/, 
         exclude: /(node_modules|bower_components)/,
         use: [
-          { loader: "style-loader" }, 
-          { loader: "css-loader" }, 
+          'style-loader', 
+          { 
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              camelCase: true,
+            }
+          }, 
           { loader: "less-loader" },
         ] 
       },
@@ -37,7 +43,7 @@ module.exports = {
           {
             loader: 'babel-loader',
             options: {
-              presets: ['env', 'react'],
+              presets: ['env', 'react', 'stage-0'],
               plugins: ['transform-runtime']
             }
           }

@@ -1,3 +1,4 @@
+import bs from 'bootstrap';
 import React from 'react'
 
 import Footer from './footer/Footer';

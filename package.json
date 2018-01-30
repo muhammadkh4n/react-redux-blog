@@ -1,0 +1,27 @@
+{
+  "name": "hello-react-redux",
+  "version": "1.0.0",
+  "description": "React redux practice app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "practice",
+    "prep"
+  ],
+  "author": "Muhammad Khan <muhammadkh4n@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "webpack": "^3.10.0"
+  }
+}
